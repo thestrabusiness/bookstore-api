@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bookstore_developement
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bookstore_test
+  pool: 5
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: bookstore_production
+  pool: 5
